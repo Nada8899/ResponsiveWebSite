@@ -1,0 +1,70 @@
+:root{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+*{
+    border-radius: 0 !important;
+}
+
+.atext{
+    
+    cursor: pointer;
+}
+
+.atext:hover{
+
+    background-color: rgb(172, 171, 170);
+
+}
+
+.projects{
+    background-image: url("imgs/house2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -100% 100%;
+}
+.about img{
+   
+    filter: grayscale(80%);
+}
+.about img:hover{
+    cursor: pointer;
+    filter: grayscale(10%);
+    /* opacity: 1; */
+   /* background-color: aliceblue; */
+}
+.head,.navshadow{
+z-index: 1;
+    /* box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.btn :focus{
+
+    border-width: 2px;
+    border-color: black;
+
+}
+.submitedbtn:hover{
+
+    background-color: rgb(160, 157, 157);
+    color: aliceblue;
+}
+footer{
+    /* background-color: black; */
+    color: #fff!important;
+    background-color: #000!important;
+}
+.map:hover{
+    cursor: pointer;
+    filter: grayscale(100%);
+
+}
+.inputTxt:focus{
+border: 3px solid #000 ;
+outline: none;
+/* box-shadow:none; */
+box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 2px 2px 0 rgb(0 0 0 / 12%);
+
+}
